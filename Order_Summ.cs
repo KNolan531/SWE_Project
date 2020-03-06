@@ -23,11 +23,16 @@ namespace WindowsFormsApp3
              * is opened. Right now I am temporarily using a created class called Order and calling it's 
              * setOrder method to display something to show how it should work. 
              */
-            Order o = new Order();
-            o.setOrder("Small Pepperoni Pizza");
-            this.label1.Text = o.displayOrder(); 
+
+
+            this.label1.Text = Program.newOrder.displayOrder();
+            
+
             this.label1.Show();
-           
+            
+
+
+            
         }
 
         private void label23_Click(object sender, EventArgs e)

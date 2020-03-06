@@ -36,24 +36,24 @@
             this.label2 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
-            this.checkBox8 = new System.Windows.Forms.CheckBox();
-            this.checkBox7 = new System.Windows.Forms.CheckBox();
+            this.largeGarlic = new System.Windows.Forms.CheckBox();
+            this.smallGarlic = new System.Windows.Forms.CheckBox();
             this.wing10 = new System.Windows.Forms.CheckBox();
             this.wing20 = new System.Windows.Forms.CheckBox();
             this.wing30 = new System.Windows.Forms.CheckBox();
             this.wingSauce = new System.Windows.Forms.ComboBox();
             this.label18 = new System.Windows.Forms.Label();
             this.label19 = new System.Windows.Forms.Label();
-            this.textBox8 = new System.Windows.Forms.TextBox();
+            this.specNotes = new System.Windows.Forms.TextBox();
             this.label20 = new System.Windows.Forms.Label();
-            this.checkBox5 = new System.Windows.Forms.CheckBox();
-            this.checkBox6 = new System.Windows.Forms.CheckBox();
-            this.checkBox1 = new System.Windows.Forms.CheckBox();
-            this.checkBox2 = new System.Windows.Forms.CheckBox();
-            this.checkBox3 = new System.Windows.Forms.CheckBox();
-            this.checkBox4 = new System.Windows.Forms.CheckBox();
-            this.checkBox9 = new System.Windows.Forms.CheckBox();
-            this.checkBox10 = new System.Windows.Forms.CheckBox();
+            this.largeCeasar = new System.Windows.Forms.CheckBox();
+            this.smallCeasar = new System.Windows.Forms.CheckBox();
+            this.largeHouse = new System.Windows.Forms.CheckBox();
+            this.smallHouse = new System.Windows.Forms.CheckBox();
+            this.largeMozz = new System.Windows.Forms.CheckBox();
+            this.smallMozz = new System.Windows.Forms.CheckBox();
+            this.largeFries = new System.Windows.Forms.CheckBox();
+            this.smallFries = new System.Windows.Forms.CheckBox();
             this.SuspendLayout();
             // 
             // label25
@@ -136,40 +136,40 @@
             this.label3.TabIndex = 58;
             this.label3.TextAlign = System.Drawing.ContentAlignment.TopRight;
             // 
-            // checkBox8
+            // largeGarlic
             // 
-            this.checkBox8.AutoSize = true;
-            this.checkBox8.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
-            this.checkBox8.FlatAppearance.BorderSize = 0;
-            this.checkBox8.FlatAppearance.CheckedBackColor = System.Drawing.Color.White;
-            this.checkBox8.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.checkBox8.ForeColor = System.Drawing.SystemColors.ControlLight;
-            this.checkBox8.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.checkBox8.Location = new System.Drawing.Point(243, 325);
-            this.checkBox8.Name = "checkBox8";
-            this.checkBox8.Size = new System.Drawing.Size(151, 28);
-            this.checkBox8.TabIndex = 62;
-            this.checkBox8.Text = "Large - $6.99";
-            this.checkBox8.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.checkBox8.UseVisualStyleBackColor = true;
+            this.largeGarlic.AutoSize = true;
+            this.largeGarlic.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
+            this.largeGarlic.FlatAppearance.BorderSize = 0;
+            this.largeGarlic.FlatAppearance.CheckedBackColor = System.Drawing.Color.White;
+            this.largeGarlic.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.largeGarlic.ForeColor = System.Drawing.SystemColors.ControlLight;
+            this.largeGarlic.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.largeGarlic.Location = new System.Drawing.Point(243, 325);
+            this.largeGarlic.Name = "largeGarlic";
+            this.largeGarlic.Size = new System.Drawing.Size(151, 28);
+            this.largeGarlic.TabIndex = 62;
+            this.largeGarlic.Text = "Large - $6.99";
+            this.largeGarlic.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.largeGarlic.UseVisualStyleBackColor = true;
             // 
-            // checkBox7
+            // smallGarlic
             // 
-            this.checkBox7.AutoSize = true;
-            this.checkBox7.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
-            this.checkBox7.FlatAppearance.BorderSize = 0;
-            this.checkBox7.FlatAppearance.CheckedBackColor = System.Drawing.Color.White;
-            this.checkBox7.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.checkBox7.ForeColor = System.Drawing.SystemColors.ControlLight;
-            this.checkBox7.Location = new System.Drawing.Point(78, 325);
-            this.checkBox7.Name = "checkBox7";
-            this.checkBox7.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.checkBox7.Size = new System.Drawing.Size(149, 28);
-            this.checkBox7.TabIndex = 61;
-            this.checkBox7.Text = "Small - $3.99";
-            this.checkBox7.TextAlign = System.Drawing.ContentAlignment.TopRight;
-            this.checkBox7.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
-            this.checkBox7.UseVisualStyleBackColor = true;
+            this.smallGarlic.AutoSize = true;
+            this.smallGarlic.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.smallGarlic.FlatAppearance.BorderSize = 0;
+            this.smallGarlic.FlatAppearance.CheckedBackColor = System.Drawing.Color.White;
+            this.smallGarlic.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.smallGarlic.ForeColor = System.Drawing.SystemColors.ControlLight;
+            this.smallGarlic.Location = new System.Drawing.Point(78, 325);
+            this.smallGarlic.Name = "smallGarlic";
+            this.smallGarlic.RightToLeft = System.Windows.Forms.RightToLeft.No;
+            this.smallGarlic.Size = new System.Drawing.Size(149, 28);
+            this.smallGarlic.TabIndex = 61;
+            this.smallGarlic.Text = "Small - $3.99";
+            this.smallGarlic.TextAlign = System.Drawing.ContentAlignment.TopRight;
+            this.smallGarlic.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
+            this.smallGarlic.UseVisualStyleBackColor = true;
             // 
             // wing10
             // 
@@ -213,7 +213,7 @@
             this.wing30.Name = "wing30";
             this.wing30.Size = new System.Drawing.Size(159, 28);
             this.wing30.TabIndex = 84;
-            this.wing30.Text = "30 ct. - $27.99";
+            this.wing30.Text = "30 ct. - $24.99";
             this.wing30.UseVisualStyleBackColor = true;
             // 
             // wingSauce
@@ -255,18 +255,18 @@
             this.label19.TextAlign = System.Drawing.ContentAlignment.TopRight;
             this.label19.Click += new System.EventHandler(this.label19_Click);
             // 
-            // textBox8
+            // specNotes
             // 
-            this.textBox8.AccessibleName = "";
-            this.textBox8.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox8.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.textBox8.Location = new System.Drawing.Point(937, 556);
-            this.textBox8.MaximumSize = new System.Drawing.Size(250, 100);
-            this.textBox8.MinimumSize = new System.Drawing.Size(150, 70);
-            this.textBox8.Multiline = true;
-            this.textBox8.Name = "textBox8";
-            this.textBox8.Size = new System.Drawing.Size(226, 70);
-            this.textBox8.TabIndex = 89;
+            this.specNotes.AccessibleName = "";
+            this.specNotes.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.specNotes.ImeMode = System.Windows.Forms.ImeMode.NoControl;
+            this.specNotes.Location = new System.Drawing.Point(937, 556);
+            this.specNotes.MaximumSize = new System.Drawing.Size(250, 100);
+            this.specNotes.MinimumSize = new System.Drawing.Size(150, 70);
+            this.specNotes.Multiline = true;
+            this.specNotes.Name = "specNotes";
+            this.specNotes.Size = new System.Drawing.Size(226, 70);
+            this.specNotes.TabIndex = 89;
             // 
             // label20
             // 
@@ -279,145 +279,145 @@
             this.label20.TabIndex = 88;
             this.label20.Text = "Special Notes";
             // 
-            // checkBox5
+            // largeCeasar
             // 
-            this.checkBox5.AutoSize = true;
-            this.checkBox5.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
-            this.checkBox5.FlatAppearance.BorderSize = 0;
-            this.checkBox5.FlatAppearance.CheckedBackColor = System.Drawing.Color.White;
-            this.checkBox5.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.checkBox5.ForeColor = System.Drawing.SystemColors.ControlLight;
-            this.checkBox5.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.checkBox5.Location = new System.Drawing.Point(651, 478);
-            this.checkBox5.Name = "checkBox5";
-            this.checkBox5.Size = new System.Drawing.Size(151, 28);
-            this.checkBox5.TabIndex = 91;
-            this.checkBox5.Text = "Large - $6.99";
-            this.checkBox5.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.checkBox5.UseVisualStyleBackColor = true;
+            this.largeCeasar.AutoSize = true;
+            this.largeCeasar.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
+            this.largeCeasar.FlatAppearance.BorderSize = 0;
+            this.largeCeasar.FlatAppearance.CheckedBackColor = System.Drawing.Color.White;
+            this.largeCeasar.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.largeCeasar.ForeColor = System.Drawing.SystemColors.ControlLight;
+            this.largeCeasar.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.largeCeasar.Location = new System.Drawing.Point(651, 478);
+            this.largeCeasar.Name = "largeCeasar";
+            this.largeCeasar.Size = new System.Drawing.Size(151, 28);
+            this.largeCeasar.TabIndex = 91;
+            this.largeCeasar.Text = "Large - $6.99";
+            this.largeCeasar.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.largeCeasar.UseVisualStyleBackColor = true;
             // 
-            // checkBox6
+            // smallCeasar
             // 
-            this.checkBox6.AutoSize = true;
-            this.checkBox6.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
-            this.checkBox6.FlatAppearance.BorderSize = 0;
-            this.checkBox6.FlatAppearance.CheckedBackColor = System.Drawing.Color.White;
-            this.checkBox6.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.checkBox6.ForeColor = System.Drawing.SystemColors.ControlLight;
-            this.checkBox6.Location = new System.Drawing.Point(486, 478);
-            this.checkBox6.Name = "checkBox6";
-            this.checkBox6.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.checkBox6.Size = new System.Drawing.Size(149, 28);
-            this.checkBox6.TabIndex = 90;
-            this.checkBox6.Text = "Small - $3.99";
-            this.checkBox6.TextAlign = System.Drawing.ContentAlignment.TopRight;
-            this.checkBox6.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
-            this.checkBox6.UseVisualStyleBackColor = true;
+            this.smallCeasar.AutoSize = true;
+            this.smallCeasar.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.smallCeasar.FlatAppearance.BorderSize = 0;
+            this.smallCeasar.FlatAppearance.CheckedBackColor = System.Drawing.Color.White;
+            this.smallCeasar.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.smallCeasar.ForeColor = System.Drawing.SystemColors.ControlLight;
+            this.smallCeasar.Location = new System.Drawing.Point(486, 478);
+            this.smallCeasar.Name = "smallCeasar";
+            this.smallCeasar.RightToLeft = System.Windows.Forms.RightToLeft.No;
+            this.smallCeasar.Size = new System.Drawing.Size(149, 28);
+            this.smallCeasar.TabIndex = 90;
+            this.smallCeasar.Text = "Small - $3.99";
+            this.smallCeasar.TextAlign = System.Drawing.ContentAlignment.TopRight;
+            this.smallCeasar.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
+            this.smallCeasar.UseVisualStyleBackColor = true;
             // 
-            // checkBox1
+            // largeHouse
             // 
-            this.checkBox1.AutoSize = true;
-            this.checkBox1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
-            this.checkBox1.FlatAppearance.BorderSize = 0;
-            this.checkBox1.FlatAppearance.CheckedBackColor = System.Drawing.Color.White;
-            this.checkBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.checkBox1.ForeColor = System.Drawing.SystemColors.ControlLight;
-            this.checkBox1.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.checkBox1.Location = new System.Drawing.Point(651, 317);
-            this.checkBox1.Name = "checkBox1";
-            this.checkBox1.Size = new System.Drawing.Size(151, 28);
-            this.checkBox1.TabIndex = 93;
-            this.checkBox1.Text = "Large - $5.99";
-            this.checkBox1.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.checkBox1.UseVisualStyleBackColor = true;
+            this.largeHouse.AutoSize = true;
+            this.largeHouse.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
+            this.largeHouse.FlatAppearance.BorderSize = 0;
+            this.largeHouse.FlatAppearance.CheckedBackColor = System.Drawing.Color.White;
+            this.largeHouse.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.largeHouse.ForeColor = System.Drawing.SystemColors.ControlLight;
+            this.largeHouse.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.largeHouse.Location = new System.Drawing.Point(651, 317);
+            this.largeHouse.Name = "largeHouse";
+            this.largeHouse.Size = new System.Drawing.Size(151, 28);
+            this.largeHouse.TabIndex = 93;
+            this.largeHouse.Text = "Large - $5.99";
+            this.largeHouse.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.largeHouse.UseVisualStyleBackColor = true;
             // 
-            // checkBox2
+            // smallHouse
             // 
-            this.checkBox2.AutoSize = true;
-            this.checkBox2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
-            this.checkBox2.FlatAppearance.BorderSize = 0;
-            this.checkBox2.FlatAppearance.CheckedBackColor = System.Drawing.Color.White;
-            this.checkBox2.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.checkBox2.ForeColor = System.Drawing.SystemColors.ControlLight;
-            this.checkBox2.Location = new System.Drawing.Point(486, 317);
-            this.checkBox2.Name = "checkBox2";
-            this.checkBox2.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.checkBox2.Size = new System.Drawing.Size(149, 28);
-            this.checkBox2.TabIndex = 92;
-            this.checkBox2.Text = "Small - $2.99";
-            this.checkBox2.TextAlign = System.Drawing.ContentAlignment.TopRight;
-            this.checkBox2.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
-            this.checkBox2.UseVisualStyleBackColor = true;
+            this.smallHouse.AutoSize = true;
+            this.smallHouse.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.smallHouse.FlatAppearance.BorderSize = 0;
+            this.smallHouse.FlatAppearance.CheckedBackColor = System.Drawing.Color.White;
+            this.smallHouse.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.smallHouse.ForeColor = System.Drawing.SystemColors.ControlLight;
+            this.smallHouse.Location = new System.Drawing.Point(486, 317);
+            this.smallHouse.Name = "smallHouse";
+            this.smallHouse.RightToLeft = System.Windows.Forms.RightToLeft.No;
+            this.smallHouse.Size = new System.Drawing.Size(149, 28);
+            this.smallHouse.TabIndex = 92;
+            this.smallHouse.Text = "Small - $2.99";
+            this.smallHouse.TextAlign = System.Drawing.ContentAlignment.TopRight;
+            this.smallHouse.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
+            this.smallHouse.UseVisualStyleBackColor = true;
             // 
-            // checkBox3
+            // largeMozz
             // 
-            this.checkBox3.AutoSize = true;
-            this.checkBox3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
-            this.checkBox3.FlatAppearance.BorderSize = 0;
-            this.checkBox3.FlatAppearance.CheckedBackColor = System.Drawing.Color.White;
-            this.checkBox3.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.checkBox3.ForeColor = System.Drawing.SystemColors.ControlLight;
-            this.checkBox3.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.checkBox3.Location = new System.Drawing.Point(1059, 314);
-            this.checkBox3.Name = "checkBox3";
-            this.checkBox3.Size = new System.Drawing.Size(151, 28);
-            this.checkBox3.TabIndex = 95;
-            this.checkBox3.Text = "Large - $8.69";
-            this.checkBox3.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.checkBox3.UseVisualStyleBackColor = true;
+            this.largeMozz.AutoSize = true;
+            this.largeMozz.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
+            this.largeMozz.FlatAppearance.BorderSize = 0;
+            this.largeMozz.FlatAppearance.CheckedBackColor = System.Drawing.Color.White;
+            this.largeMozz.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.largeMozz.ForeColor = System.Drawing.SystemColors.ControlLight;
+            this.largeMozz.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.largeMozz.Location = new System.Drawing.Point(1059, 314);
+            this.largeMozz.Name = "largeMozz";
+            this.largeMozz.Size = new System.Drawing.Size(151, 28);
+            this.largeMozz.TabIndex = 95;
+            this.largeMozz.Text = "Large - $8.69";
+            this.largeMozz.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.largeMozz.UseVisualStyleBackColor = true;
             // 
-            // checkBox4
+            // smallMozz
             // 
-            this.checkBox4.AutoSize = true;
-            this.checkBox4.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
-            this.checkBox4.FlatAppearance.BorderSize = 0;
-            this.checkBox4.FlatAppearance.CheckedBackColor = System.Drawing.Color.White;
-            this.checkBox4.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.checkBox4.ForeColor = System.Drawing.SystemColors.ControlLight;
-            this.checkBox4.Location = new System.Drawing.Point(894, 314);
-            this.checkBox4.Name = "checkBox4";
-            this.checkBox4.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.checkBox4.Size = new System.Drawing.Size(149, 28);
-            this.checkBox4.TabIndex = 94;
-            this.checkBox4.Text = "Small - $4.99";
-            this.checkBox4.TextAlign = System.Drawing.ContentAlignment.TopRight;
-            this.checkBox4.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
-            this.checkBox4.UseVisualStyleBackColor = true;
+            this.smallMozz.AutoSize = true;
+            this.smallMozz.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.smallMozz.FlatAppearance.BorderSize = 0;
+            this.smallMozz.FlatAppearance.CheckedBackColor = System.Drawing.Color.White;
+            this.smallMozz.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.smallMozz.ForeColor = System.Drawing.SystemColors.ControlLight;
+            this.smallMozz.Location = new System.Drawing.Point(894, 314);
+            this.smallMozz.Name = "smallMozz";
+            this.smallMozz.RightToLeft = System.Windows.Forms.RightToLeft.No;
+            this.smallMozz.Size = new System.Drawing.Size(149, 28);
+            this.smallMozz.TabIndex = 94;
+            this.smallMozz.Text = "Small - $4.99";
+            this.smallMozz.TextAlign = System.Drawing.ContentAlignment.TopRight;
+            this.smallMozz.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
+            this.smallMozz.UseVisualStyleBackColor = true;
             // 
-            // checkBox9
+            // largeFries
             // 
-            this.checkBox9.AutoSize = true;
-            this.checkBox9.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
-            this.checkBox9.FlatAppearance.BorderSize = 0;
-            this.checkBox9.FlatAppearance.CheckedBackColor = System.Drawing.Color.White;
-            this.checkBox9.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.checkBox9.ForeColor = System.Drawing.SystemColors.ControlLight;
-            this.checkBox9.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.checkBox9.Location = new System.Drawing.Point(1071, 470);
-            this.checkBox9.Name = "checkBox9";
-            this.checkBox9.Size = new System.Drawing.Size(151, 28);
-            this.checkBox9.TabIndex = 97;
-            this.checkBox9.Text = "Large - $3.49";
-            this.checkBox9.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.checkBox9.UseVisualStyleBackColor = true;
+            this.largeFries.AutoSize = true;
+            this.largeFries.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
+            this.largeFries.FlatAppearance.BorderSize = 0;
+            this.largeFries.FlatAppearance.CheckedBackColor = System.Drawing.Color.White;
+            this.largeFries.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.largeFries.ForeColor = System.Drawing.SystemColors.ControlLight;
+            this.largeFries.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.largeFries.Location = new System.Drawing.Point(1071, 470);
+            this.largeFries.Name = "largeFries";
+            this.largeFries.Size = new System.Drawing.Size(151, 28);
+            this.largeFries.TabIndex = 97;
+            this.largeFries.Text = "Large - $3.49";
+            this.largeFries.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.largeFries.UseVisualStyleBackColor = true;
             // 
-            // checkBox10
+            // smallFries
             // 
-            this.checkBox10.AutoSize = true;
-            this.checkBox10.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
-            this.checkBox10.FlatAppearance.BorderSize = 0;
-            this.checkBox10.FlatAppearance.CheckedBackColor = System.Drawing.Color.White;
-            this.checkBox10.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.checkBox10.ForeColor = System.Drawing.SystemColors.ControlLight;
-            this.checkBox10.Location = new System.Drawing.Point(906, 470);
-            this.checkBox10.Name = "checkBox10";
-            this.checkBox10.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.checkBox10.Size = new System.Drawing.Size(149, 28);
-            this.checkBox10.TabIndex = 96;
-            this.checkBox10.Text = "Small - $1.99";
-            this.checkBox10.TextAlign = System.Drawing.ContentAlignment.TopRight;
-            this.checkBox10.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
-            this.checkBox10.UseVisualStyleBackColor = true;
+            this.smallFries.AutoSize = true;
+            this.smallFries.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.smallFries.FlatAppearance.BorderSize = 0;
+            this.smallFries.FlatAppearance.CheckedBackColor = System.Drawing.Color.White;
+            this.smallFries.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.smallFries.ForeColor = System.Drawing.SystemColors.ControlLight;
+            this.smallFries.Location = new System.Drawing.Point(906, 470);
+            this.smallFries.Name = "smallFries";
+            this.smallFries.RightToLeft = System.Windows.Forms.RightToLeft.No;
+            this.smallFries.Size = new System.Drawing.Size(149, 28);
+            this.smallFries.TabIndex = 96;
+            this.smallFries.Text = "Small - $1.99";
+            this.smallFries.TextAlign = System.Drawing.ContentAlignment.TopRight;
+            this.smallFries.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
+            this.smallFries.UseVisualStyleBackColor = true;
             // 
             // Appetizers
             // 
@@ -425,15 +425,15 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.Desktop;
             this.ClientSize = new System.Drawing.Size(1293, 644);
-            this.Controls.Add(this.checkBox9);
-            this.Controls.Add(this.checkBox10);
-            this.Controls.Add(this.checkBox3);
-            this.Controls.Add(this.checkBox4);
-            this.Controls.Add(this.checkBox1);
-            this.Controls.Add(this.checkBox2);
-            this.Controls.Add(this.checkBox5);
-            this.Controls.Add(this.checkBox6);
-            this.Controls.Add(this.textBox8);
+            this.Controls.Add(this.largeFries);
+            this.Controls.Add(this.smallFries);
+            this.Controls.Add(this.largeMozz);
+            this.Controls.Add(this.smallMozz);
+            this.Controls.Add(this.largeHouse);
+            this.Controls.Add(this.smallHouse);
+            this.Controls.Add(this.largeCeasar);
+            this.Controls.Add(this.smallCeasar);
+            this.Controls.Add(this.specNotes);
             this.Controls.Add(this.label20);
             this.Controls.Add(this.label19);
             this.Controls.Add(this.wingSauce);
@@ -441,8 +441,8 @@
             this.Controls.Add(this.wing30);
             this.Controls.Add(this.wing20);
             this.Controls.Add(this.wing10);
-            this.Controls.Add(this.checkBox8);
-            this.Controls.Add(this.checkBox7);
+            this.Controls.Add(this.largeGarlic);
+            this.Controls.Add(this.smallGarlic);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.label25);
@@ -467,23 +467,23 @@
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.CheckBox checkBox8;
-        private System.Windows.Forms.CheckBox checkBox7;
+        private System.Windows.Forms.CheckBox largeGarlic;
+        private System.Windows.Forms.CheckBox smallGarlic;
         private System.Windows.Forms.CheckBox wing10;
         private System.Windows.Forms.CheckBox wing20;
         private System.Windows.Forms.CheckBox wing30;
         private System.Windows.Forms.ComboBox wingSauce;
         private System.Windows.Forms.Label label18;
         private System.Windows.Forms.Label label19;
-        private System.Windows.Forms.TextBox textBox8;
+        private System.Windows.Forms.TextBox specNotes;
         private System.Windows.Forms.Label label20;
-        private System.Windows.Forms.CheckBox checkBox5;
-        private System.Windows.Forms.CheckBox checkBox6;
-        private System.Windows.Forms.CheckBox checkBox1;
-        private System.Windows.Forms.CheckBox checkBox2;
-        private System.Windows.Forms.CheckBox checkBox3;
-        private System.Windows.Forms.CheckBox checkBox4;
-        private System.Windows.Forms.CheckBox checkBox9;
-        private System.Windows.Forms.CheckBox checkBox10;
+        private System.Windows.Forms.CheckBox largeCeasar;
+        private System.Windows.Forms.CheckBox smallCeasar;
+        private System.Windows.Forms.CheckBox largeHouse;
+        private System.Windows.Forms.CheckBox smallHouse;
+        private System.Windows.Forms.CheckBox largeMozz;
+        private System.Windows.Forms.CheckBox smallMozz;
+        private System.Windows.Forms.CheckBox largeFries;
+        private System.Windows.Forms.CheckBox smallFries;
     }
 }

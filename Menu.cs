@@ -46,5 +46,11 @@ namespace WindowsFormsApp3
             new AccountPage().Show();
             this.Close();
         }
+
+        private void label13_Click(object sender, EventArgs e)
+        {
+            new Order_Summ().Show();
+            this.Close(); 
+        }
     }
 }

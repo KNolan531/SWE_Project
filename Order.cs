@@ -1,4 +1,4 @@
-/* Order Class - A container class to hold and/or keep track of the items in an order. 
+﻿/* Order Class - A container class to hold and/or keep track of the items in an order. 
  *  It will also keep count of how many of each item has been ordered and the  
  *  total overall price of the order. Finally it will have a method that can display the 
  *  order summary to the screen as the order is compiled. 

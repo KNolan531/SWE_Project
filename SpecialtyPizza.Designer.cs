@@ -39,27 +39,27 @@
             this.label11 = new System.Windows.Forms.Label();
             this.label8 = new System.Windows.Forms.Label();
             this.label10 = new System.Windows.Forms.Label();
-            this.comboBox1 = new System.Windows.Forms.ComboBox();
+            this.pCrust = new System.Windows.Forms.ComboBox();
             this.label3 = new System.Windows.Forms.Label();
-            this.comboBox10 = new System.Windows.Forms.ComboBox();
+            this.peppLovers = new System.Windows.Forms.ComboBox();
             this.label14 = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
             this.label6 = new System.Windows.Forms.Label();
             this.label17 = new System.Windows.Forms.Label();
-            this.comboBox2 = new System.Windows.Forms.ComboBox();
-            this.comboBox3 = new System.Windows.Forms.ComboBox();
-            this.comboBox6 = new System.Windows.Forms.ComboBox();
-            this.comboBox7 = new System.Windows.Forms.ComboBox();
-            this.comboBox4 = new System.Windows.Forms.ComboBox();
-            this.comboBox11 = new System.Windows.Forms.ComboBox();
+            this.mCrust = new System.Windows.Forms.ComboBox();
+            this.vCrust = new System.Windows.Forms.ComboBox();
+            this.hCrust = new System.Windows.Forms.ComboBox();
+            this.gCrust = new System.Windows.Forms.ComboBox();
+            this.bCrust = new System.Windows.Forms.ComboBox();
+            this.meatLovers = new System.Windows.Forms.ComboBox();
             this.label15 = new System.Windows.Forms.Label();
-            this.comboBox12 = new System.Windows.Forms.ComboBox();
+            this.veggieLovers = new System.Windows.Forms.ComboBox();
             this.label16 = new System.Windows.Forms.Label();
-            this.comboBox9 = new System.Windows.Forms.ComboBox();
+            this.hawaiian = new System.Windows.Forms.ComboBox();
             this.label13 = new System.Windows.Forms.Label();
-            this.comboBox5 = new System.Windows.Forms.ComboBox();
+            this.garlicChicken = new System.Windows.Forms.ComboBox();
             this.label9 = new System.Windows.Forms.Label();
-            this.comboBox8 = new System.Windows.Forms.ComboBox();
+            this.bbqChicken = new System.Windows.Forms.ComboBox();
             this.label12 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
@@ -176,20 +176,20 @@
             this.label10.TabIndex = 74;
             this.label10.Text = "Crust";
             // 
-            // comboBox1
+            // pCrust
             // 
-            this.comboBox1.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.comboBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.comboBox1.FormattingEnabled = true;
-            this.comboBox1.Items.AddRange(new object[] {
+            this.pCrust.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.pCrust.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.pCrust.FormattingEnabled = true;
+            this.pCrust.Items.AddRange(new object[] {
             "Hand-Tossed",
             "Pan ",
             "Thin"});
-            this.comboBox1.Location = new System.Drawing.Point(226, 340);
-            this.comboBox1.Name = "comboBox1";
-            this.comboBox1.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.comboBox1.Size = new System.Drawing.Size(140, 32);
-            this.comboBox1.TabIndex = 79;
+            this.pCrust.Location = new System.Drawing.Point(226, 340);
+            this.pCrust.Name = "pCrust";
+            this.pCrust.RightToLeft = System.Windows.Forms.RightToLeft.No;
+            this.pCrust.Size = new System.Drawing.Size(140, 32);
+            this.pCrust.TabIndex = 79;
             // 
             // label3
             // 
@@ -202,22 +202,22 @@
             this.label3.TabIndex = 78;
             this.label3.Text = "Crust";
             // 
-            // comboBox10
+            // peppLovers
             // 
-            this.comboBox10.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.comboBox10.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.comboBox10.FormattingEnabled = true;
-            this.comboBox10.ItemHeight = 20;
-            this.comboBox10.Items.AddRange(new object[] {
+            this.peppLovers.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.peppLovers.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.peppLovers.FormattingEnabled = true;
+            this.peppLovers.ItemHeight = 20;
+            this.peppLovers.Items.AddRange(new object[] {
             "Small($9.99)",
             "Medium($12.99) ",
             "Large($15.99)",
             "Xtra-Large($18.99) "});
-            this.comboBox10.Location = new System.Drawing.Point(47, 340);
-            this.comboBox10.Name = "comboBox10";
-            this.comboBox10.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.comboBox10.Size = new System.Drawing.Size(159, 28);
-            this.comboBox10.TabIndex = 77;
+            this.peppLovers.Location = new System.Drawing.Point(47, 340);
+            this.peppLovers.Name = "peppLovers";
+            this.peppLovers.RightToLeft = System.Windows.Forms.RightToLeft.No;
+            this.peppLovers.Size = new System.Drawing.Size(159, 28);
+            this.peppLovers.TabIndex = 77;
             // 
             // label14
             // 
@@ -264,97 +264,97 @@
             this.label17.TextAlign = System.Drawing.ContentAlignment.TopRight;
             this.label17.Click += new System.EventHandler(this.label17_Click);
             // 
-            // comboBox2
+            // mCrust
             // 
-            this.comboBox2.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.comboBox2.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.comboBox2.FormattingEnabled = true;
-            this.comboBox2.Items.AddRange(new object[] {
+            this.mCrust.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.mCrust.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.mCrust.FormattingEnabled = true;
+            this.mCrust.Items.AddRange(new object[] {
             "Hand-Tossed",
             "Pan ",
             "Thin"});
-            this.comboBox2.Location = new System.Drawing.Point(685, 336);
-            this.comboBox2.Name = "comboBox2";
-            this.comboBox2.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.comboBox2.Size = new System.Drawing.Size(140, 32);
-            this.comboBox2.TabIndex = 89;
+            this.mCrust.Location = new System.Drawing.Point(685, 336);
+            this.mCrust.Name = "mCrust";
+            this.mCrust.RightToLeft = System.Windows.Forms.RightToLeft.No;
+            this.mCrust.Size = new System.Drawing.Size(140, 32);
+            this.mCrust.TabIndex = 89;
             // 
-            // comboBox3
+            // vCrust
             // 
-            this.comboBox3.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.comboBox3.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.comboBox3.FormattingEnabled = true;
-            this.comboBox3.Items.AddRange(new object[] {
+            this.vCrust.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.vCrust.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.vCrust.FormattingEnabled = true;
+            this.vCrust.Items.AddRange(new object[] {
             "Hand-Tossed",
             "Pan ",
             "Thin"});
-            this.comboBox3.Location = new System.Drawing.Point(1111, 339);
-            this.comboBox3.Name = "comboBox3";
-            this.comboBox3.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.comboBox3.Size = new System.Drawing.Size(140, 32);
-            this.comboBox3.TabIndex = 90;
+            this.vCrust.Location = new System.Drawing.Point(1111, 339);
+            this.vCrust.Name = "vCrust";
+            this.vCrust.RightToLeft = System.Windows.Forms.RightToLeft.No;
+            this.vCrust.Size = new System.Drawing.Size(140, 32);
+            this.vCrust.TabIndex = 90;
             // 
-            // comboBox6
+            // hCrust
             // 
-            this.comboBox6.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.comboBox6.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.comboBox6.FormattingEnabled = true;
-            this.comboBox6.Items.AddRange(new object[] {
+            this.hCrust.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.hCrust.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.hCrust.FormattingEnabled = true;
+            this.hCrust.Items.AddRange(new object[] {
             "Hand-Tossed",
             "Pan ",
             "Thin"});
-            this.comboBox6.Location = new System.Drawing.Point(213, 571);
-            this.comboBox6.Name = "comboBox6";
-            this.comboBox6.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.comboBox6.Size = new System.Drawing.Size(140, 32);
-            this.comboBox6.TabIndex = 91;
+            this.hCrust.Location = new System.Drawing.Point(213, 571);
+            this.hCrust.Name = "hCrust";
+            this.hCrust.RightToLeft = System.Windows.Forms.RightToLeft.No;
+            this.hCrust.Size = new System.Drawing.Size(140, 32);
+            this.hCrust.TabIndex = 91;
             // 
-            // comboBox7
+            // gCrust
             // 
-            this.comboBox7.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.comboBox7.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.comboBox7.FormattingEnabled = true;
-            this.comboBox7.Items.AddRange(new object[] {
+            this.gCrust.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.gCrust.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.gCrust.FormattingEnabled = true;
+            this.gCrust.Items.AddRange(new object[] {
             "Hand-Tossed",
             "Pan ",
             "Thin"});
-            this.comboBox7.Location = new System.Drawing.Point(654, 568);
-            this.comboBox7.Name = "comboBox7";
-            this.comboBox7.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.comboBox7.Size = new System.Drawing.Size(140, 32);
-            this.comboBox7.TabIndex = 92;
+            this.gCrust.Location = new System.Drawing.Point(654, 568);
+            this.gCrust.Name = "gCrust";
+            this.gCrust.RightToLeft = System.Windows.Forms.RightToLeft.No;
+            this.gCrust.Size = new System.Drawing.Size(140, 32);
+            this.gCrust.TabIndex = 92;
             // 
-            // comboBox4
+            // bCrust
             // 
-            this.comboBox4.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.comboBox4.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.comboBox4.FormattingEnabled = true;
-            this.comboBox4.Items.AddRange(new object[] {
+            this.bCrust.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.bCrust.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.bCrust.FormattingEnabled = true;
+            this.bCrust.Items.AddRange(new object[] {
             "Hand-Tossed",
             "Pan ",
             "Thin"});
-            this.comboBox4.Location = new System.Drawing.Point(1103, 567);
-            this.comboBox4.Name = "comboBox4";
-            this.comboBox4.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.comboBox4.Size = new System.Drawing.Size(140, 32);
-            this.comboBox4.TabIndex = 93;
+            this.bCrust.Location = new System.Drawing.Point(1103, 567);
+            this.bCrust.Name = "bCrust";
+            this.bCrust.RightToLeft = System.Windows.Forms.RightToLeft.No;
+            this.bCrust.Size = new System.Drawing.Size(140, 32);
+            this.bCrust.TabIndex = 93;
             // 
-            // comboBox11
+            // meatLovers
             // 
-            this.comboBox11.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.comboBox11.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.comboBox11.FormattingEnabled = true;
-            this.comboBox11.ItemHeight = 20;
-            this.comboBox11.Items.AddRange(new object[] {
+            this.meatLovers.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.meatLovers.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.meatLovers.FormattingEnabled = true;
+            this.meatLovers.ItemHeight = 20;
+            this.meatLovers.Items.AddRange(new object[] {
             "Small($10.99)",
             "Medium($13.99) ",
             "Large($16.99)",
             "Xtra-Large($19.99) "});
-            this.comboBox11.Location = new System.Drawing.Point(494, 339);
-            this.comboBox11.Name = "comboBox11";
-            this.comboBox11.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.comboBox11.Size = new System.Drawing.Size(159, 28);
-            this.comboBox11.TabIndex = 95;
+            this.meatLovers.Location = new System.Drawing.Point(494, 339);
+            this.meatLovers.Name = "meatLovers";
+            this.meatLovers.RightToLeft = System.Windows.Forms.RightToLeft.No;
+            this.meatLovers.Size = new System.Drawing.Size(159, 28);
+            this.meatLovers.TabIndex = 95;
             // 
             // label15
             // 
@@ -367,22 +367,22 @@
             this.label15.TabIndex = 94;
             this.label15.Text = "Size";
             // 
-            // comboBox12
+            // veggieLovers
             // 
-            this.comboBox12.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.comboBox12.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.comboBox12.FormattingEnabled = true;
-            this.comboBox12.ItemHeight = 20;
-            this.comboBox12.Items.AddRange(new object[] {
+            this.veggieLovers.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.veggieLovers.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.veggieLovers.FormattingEnabled = true;
+            this.veggieLovers.ItemHeight = 20;
+            this.veggieLovers.Items.AddRange(new object[] {
             "Small($10.99)",
             "Medium($13.99) ",
             "Large($16.99)",
             "Xtra-Large($19.99) "});
-            this.comboBox12.Location = new System.Drawing.Point(922, 340);
-            this.comboBox12.Name = "comboBox12";
-            this.comboBox12.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.comboBox12.Size = new System.Drawing.Size(159, 28);
-            this.comboBox12.TabIndex = 97;
+            this.veggieLovers.Location = new System.Drawing.Point(922, 340);
+            this.veggieLovers.Name = "veggieLovers";
+            this.veggieLovers.RightToLeft = System.Windows.Forms.RightToLeft.No;
+            this.veggieLovers.Size = new System.Drawing.Size(159, 28);
+            this.veggieLovers.TabIndex = 97;
             // 
             // label16
             // 
@@ -395,22 +395,22 @@
             this.label16.TabIndex = 96;
             this.label16.Text = "Size";
             // 
-            // comboBox9
+            // hawaiian
             // 
-            this.comboBox9.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.comboBox9.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.comboBox9.FormattingEnabled = true;
-            this.comboBox9.ItemHeight = 20;
-            this.comboBox9.Items.AddRange(new object[] {
+            this.hawaiian.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.hawaiian.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.hawaiian.FormattingEnabled = true;
+            this.hawaiian.ItemHeight = 20;
+            this.hawaiian.Items.AddRange(new object[] {
             "Small($9.99)",
             "Medium($12.99) ",
             "Large($15.99)",
             "Xtra-Large($18.99) "});
-            this.comboBox9.Location = new System.Drawing.Point(33, 571);
-            this.comboBox9.Name = "comboBox9";
-            this.comboBox9.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.comboBox9.Size = new System.Drawing.Size(159, 28);
-            this.comboBox9.TabIndex = 99;
+            this.hawaiian.Location = new System.Drawing.Point(33, 571);
+            this.hawaiian.Name = "hawaiian";
+            this.hawaiian.RightToLeft = System.Windows.Forms.RightToLeft.No;
+            this.hawaiian.Size = new System.Drawing.Size(159, 28);
+            this.hawaiian.TabIndex = 99;
             // 
             // label13
             // 
@@ -423,22 +423,22 @@
             this.label13.TabIndex = 98;
             this.label13.Text = "Size";
             // 
-            // comboBox5
+            // garlicChicken
             // 
-            this.comboBox5.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.comboBox5.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.comboBox5.FormattingEnabled = true;
-            this.comboBox5.ItemHeight = 20;
-            this.comboBox5.Items.AddRange(new object[] {
+            this.garlicChicken.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.garlicChicken.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.garlicChicken.FormattingEnabled = true;
+            this.garlicChicken.ItemHeight = 20;
+            this.garlicChicken.Items.AddRange(new object[] {
             "Small($9.99)",
             "Medium($12.99) ",
             "Large($15.99)",
             "Xtra-Large($18.99) "});
-            this.comboBox5.Location = new System.Drawing.Point(469, 571);
-            this.comboBox5.Name = "comboBox5";
-            this.comboBox5.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.comboBox5.Size = new System.Drawing.Size(159, 28);
-            this.comboBox5.TabIndex = 101;
+            this.garlicChicken.Location = new System.Drawing.Point(469, 571);
+            this.garlicChicken.Name = "garlicChicken";
+            this.garlicChicken.RightToLeft = System.Windows.Forms.RightToLeft.No;
+            this.garlicChicken.Size = new System.Drawing.Size(159, 28);
+            this.garlicChicken.TabIndex = 101;
             // 
             // label9
             // 
@@ -451,22 +451,22 @@
             this.label9.TabIndex = 100;
             this.label9.Text = "Size";
             // 
-            // comboBox8
+            // bbqChicken
             // 
-            this.comboBox8.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.comboBox8.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.comboBox8.FormattingEnabled = true;
-            this.comboBox8.ItemHeight = 20;
-            this.comboBox8.Items.AddRange(new object[] {
+            this.bbqChicken.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.bbqChicken.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.bbqChicken.FormattingEnabled = true;
+            this.bbqChicken.ItemHeight = 20;
+            this.bbqChicken.Items.AddRange(new object[] {
             "Small($10.99)",
             "Medium($13.99) ",
             "Large($16.99)",
             "Xtra-Large($19.99) "});
-            this.comboBox8.Location = new System.Drawing.Point(922, 571);
-            this.comboBox8.Name = "comboBox8";
-            this.comboBox8.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.comboBox8.Size = new System.Drawing.Size(159, 28);
-            this.comboBox8.TabIndex = 103;
+            this.bbqChicken.Location = new System.Drawing.Point(922, 571);
+            this.bbqChicken.Name = "bbqChicken";
+            this.bbqChicken.RightToLeft = System.Windows.Forms.RightToLeft.No;
+            this.bbqChicken.Size = new System.Drawing.Size(159, 28);
+            this.bbqChicken.TabIndex = 103;
             // 
             // label12
             // 
@@ -486,27 +486,27 @@
             this.AutoSize = true;
             this.BackColor = System.Drawing.SystemColors.Desktop;
             this.ClientSize = new System.Drawing.Size(1281, 715);
-            this.Controls.Add(this.comboBox8);
+            this.Controls.Add(this.bbqChicken);
             this.Controls.Add(this.label12);
-            this.Controls.Add(this.comboBox5);
+            this.Controls.Add(this.garlicChicken);
             this.Controls.Add(this.label9);
-            this.Controls.Add(this.comboBox9);
+            this.Controls.Add(this.hawaiian);
             this.Controls.Add(this.label13);
-            this.Controls.Add(this.comboBox12);
+            this.Controls.Add(this.veggieLovers);
             this.Controls.Add(this.label16);
-            this.Controls.Add(this.comboBox11);
+            this.Controls.Add(this.meatLovers);
             this.Controls.Add(this.label15);
-            this.Controls.Add(this.comboBox4);
-            this.Controls.Add(this.comboBox7);
-            this.Controls.Add(this.comboBox6);
-            this.Controls.Add(this.comboBox3);
-            this.Controls.Add(this.comboBox2);
+            this.Controls.Add(this.bCrust);
+            this.Controls.Add(this.gCrust);
+            this.Controls.Add(this.hCrust);
+            this.Controls.Add(this.vCrust);
+            this.Controls.Add(this.mCrust);
             this.Controls.Add(this.label17);
             this.Controls.Add(this.label6);
             this.Controls.Add(this.label5);
-            this.Controls.Add(this.comboBox1);
+            this.Controls.Add(this.pCrust);
             this.Controls.Add(this.label3);
-            this.Controls.Add(this.comboBox10);
+            this.Controls.Add(this.peppLovers);
             this.Controls.Add(this.label14);
             this.Controls.Add(this.label10);
             this.Controls.Add(this.label8);
@@ -538,27 +538,28 @@
         private System.Windows.Forms.Label label11;
         private System.Windows.Forms.Label label8;
         private System.Windows.Forms.Label label10;
-        private System.Windows.Forms.ComboBox comboBox1;
+        private System.Windows.Forms.ComboBox pCrust;
         private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.ComboBox comboBox10;
+        private System.Windows.Forms.ComboBox peppLovers;
         private System.Windows.Forms.Label label14;
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.Label label17;
-        private System.Windows.Forms.ComboBox comboBox2;
-        private System.Windows.Forms.ComboBox comboBox3;
-        private System.Windows.Forms.ComboBox comboBox6;
-        private System.Windows.Forms.ComboBox comboBox7;
-        private System.Windows.Forms.ComboBox comboBox4;
-        private System.Windows.Forms.ComboBox comboBox11;
+        private System.Windows.Forms.ComboBox mCrust;
+        private System.Windows.Forms.ComboBox vCrust;
+        private System.Windows.Forms.ComboBox hCrust;
+        private System.Windows.Forms.ComboBox gCrust;
+        private System.Windows.Forms.ComboBox bCrust;
+        private System.Windows.Forms.ComboBox meatLovers;
         private System.Windows.Forms.Label label15;
-        private System.Windows.Forms.ComboBox comboBox12;
+        private System.Windows.Forms.ComboBox veggieLovers;
         private System.Windows.Forms.Label label16;
-        private System.Windows.Forms.ComboBox comboBox9;
+        private System.Windows.Forms.ComboBox hawaiian;
         private System.Windows.Forms.Label label13;
-        private System.Windows.Forms.ComboBox comboBox5;
+        private System.Windows.Forms.ComboBox garlicChicken;
         private System.Windows.Forms.Label label9;
-        private System.Windows.Forms.ComboBox comboBox8;
+        private System.Windows.Forms.ComboBox bbqChicken;
         private System.Windows.Forms.Label label12;
+        
     }
 }
