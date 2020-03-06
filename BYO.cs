@@ -37,16 +37,52 @@ namespace WindowsFormsApp3
 
         private void label1_Click(object sender, EventArgs e)
         {
-            /* This click should collect the text from each drop down box and check box
-             * and then place it on the order list. ie- med thin crust red sauce w/ beef and pepp.
-             * The messagebox below will show if at least the first 3 drop down boxes are selected, if 
-             * not then an error  message will pop up as shown below. 
-             */
+            String toppings = "";
+            double tp = 0.0; 
+            String pz = "";
+            double piz = 0.0;
 
-            if (sauce.SelectedIndex == -1 || size.SelectedIndex == -1 || crust.SelectedIndex == -1) 
+            Control c = new Control();
+
+            if(size.SelectedIndex != -1)
+            {
+                pz = crust.Text + " - " + size.Text + "\n" + sauce.Text;
+                piz = 8.99 + (size.SelectedIndex * 3); 
+            }
+
+            foreach(var control in this.Controls)
+            {
+                if (control is CheckBox)
+                    if (((CheckBox)control).Checked == true)
+                    {
+                        toppings += ((CheckBox)control).Text + ", ";
+                        tp += 1.0; 
+                    } 
+
+            }
+
+            if (!notes.Equals(""))
+                toppings += "\n [Pizza Notes:" + notes.Text + "]";  
+
+                                          
+            if (sauce.SelectedIndex == -1 || size.SelectedIndex == -1 || crust.SelectedIndex == -1)
                 MessageBox.Show("Please select your crust, sauce and pizza size!");
-           else
-                MessageBox.Show("Successfully added Pizza to your order!"); 
+            else
+            {
+                Program.newOrder.addPizza(pz + "\n" + toppings);
+                Program.newOrder.addPrice(piz + tp);
+                MessageBox.Show("Successfully added Pizza to your order!");
+                new Menu().Show(); 
+                this.Close(); 
+            }
+
+            
+
+        }
+
+        private void notes_TextChanged(object sender, EventArgs e)
+        {
+
         }
     }
 }

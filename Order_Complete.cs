@@ -19,12 +19,15 @@ namespace WindowsFormsApp3
 
         private void label17_Click(object sender, EventArgs e)
         {
+            Program.newOrder.clearOrder(); 
             new Form1().Show();
             this.Close(); 
         }
 
         private void label2_Click(object sender, EventArgs e)
         {
+            Program.newOrder.clearOrder();
+            Program.cust.clearAccount();  
             new Log_In().Show();
             this.Close(); 
         }

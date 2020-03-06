@@ -164,6 +164,7 @@
             this.label13.Size = new System.Drawing.Size(70, 100);
             this.label13.TabIndex = 19;
             this.label13.Text = "label13";
+            this.label13.Click += new System.EventHandler(this.label13_Click);
             // 
             // Menu
             // 

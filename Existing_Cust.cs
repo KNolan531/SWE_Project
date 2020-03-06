@@ -25,16 +25,27 @@ namespace WindowsFormsApp3
 
         private void label5_Click(object sender, EventArgs e)
         {
-            /* Method needed here to search text file for phone # taken from 3 boxes. If not 
-             * found then dialog box appears as shown below. If found then it will go to account page 
-             * that should be pre-filled with customer's info from text file. 
-             */
-            String phoneNum = textBox3.Text + textBox4.Text + textBox5.Text; 
+            
+            String phoneNum = textBox3.Text + textBox4.Text + textBox5.Text;
+            bool found = true; 
+
+            if(Program.ci.getFirstName(phoneNum).Equals("")) 
+                found = false; 
+            
            
-           //This is just an example. (phoneNum.Equals) should be replaced with a method to search text file for phone #! 
-            if (phoneNum.Equals("7701234567"))
+           //Adds appropriate customer info to customer object. 
+            if (textBox3.TextLength >0 && textBox4.TextLength > 0 && textBox5.TextLength > 0 && found == true)
             {
+                Program.cust.setFname(Program.ci.getFirstName(phoneNum));
+                Program.cust.setlname(Program.ci.getLastName(phoneNum));
+                Program.cust.setPho(Program.ci.getPhone(phoneNum)); 
+                Program.cust.setStreet(Program.ci.getStreet(phoneNum));
+                Program.cust.setCity(Program.ci.getCity(phoneNum));
+                Program.cust.setState(Program.ci.getState(phoneNum));
+                Program.cust.setZip(Program.ci.getZipCode(phoneNum));
+
                 new AccountPage().Show();
+
                 this.Close();
             }
             else
